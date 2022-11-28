@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+
+NotifyLib.prompt('Banning Account', 'Loading..', 5)
+NotifyLib.prompt('Username: austinwedfghjk', 'Loading..', 15)
+NotifyLib.prompt('Almost Done!', 'Loading..', 20)
+NotifyLib.prompt('Account BANNED!', 'Roblox Account Has Been BANNED!', 100)
+
+game.Players.LocalPlayer:Kick("Your Roblox Account Has Been BANNED!")
